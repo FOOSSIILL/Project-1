@@ -11,9 +11,11 @@ class AppContainer extends HTMLElement {
 
         data.forEach((user) => {
             const profileCard = this.ownerDocument.createElement("my-profile") as Profile;
+            profileCard.setAttribute(Attribute.uid,String(user.id));
             profileCard.setAttribute(Attribute.name,user.name);
-            profileCard.setAttribute(Attribute.uid,user.uid);
-            profileCard.setAttribute(Attribute.city,user.city);
+            profileCard.setAttribute(Attribute.username,user.username);
+            profileCard.setAttribute(Attribute.email,user.email);
+            profileCard.setAttribute(Attribute.description,user.description);
             this.profiles.push(profileCard);
         })
     }
