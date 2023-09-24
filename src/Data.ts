@@ -4,6 +4,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://www.bonella.com.ec/-/media/Project/Upfield/Brands/Rama/Rama-EC/Assets/Recipes/sync-img/d65034c7-c31d-4d41-8ffd-80fcffa0f254.jpg?rev=2d3b42b7082e4be48a0448d611c08566", 
         description: {
             name: "Chocolate cake",
             ingredients: {
@@ -27,6 +28,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://static.onecms.io/wp-content/uploads/sites/21/2015/11/18/pastel-de-vainilla-bc3a1sico-2000.jpg",
         description: {
             name: "Vainilla cake",
             ingredients: {
@@ -46,6 +48,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://www.recetasnestle.com.ec/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/7f9ebeaceea909a80306da27f0495c59.jpg?itok=jvnFYyGL",
         description: {
             name: "Cheesecake of strawbery",
             ingredients: {
@@ -70,6 +73,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/coffee-cake-4d37cac.jpg?resize=768,574",
         description: {
             name: "Coffe cake",
             ingredients: {
@@ -90,6 +94,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://www.cookingclassy.com/wp-content/uploads/2017/06/banana-cake-salted-caramel-frosting-13.jpg",
         description: {
             name: "Banana cake",
             ingredients: {
@@ -111,6 +116,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://recetasdemicolombia.com/wp-content/uploads/2019/11/pandebono-valluno.jpg",
         description: {
             name: "pandebonos",
             ingredients: {
@@ -130,6 +136,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://freshbeanbakery.com/wp-content/uploads/2021/12/ae33ab58-07d1-468b-96aa-4b4293352254.jpg",
         description: {
             name: "Lemon and apple ice cream cake",
             ingredients: {
@@ -149,6 +156,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://cdn.mos.cms.futurecdn.net/sKqvL4nPdHh8XtdDEMfnXi.jpg",
         description: {
             name: "Sweet cake",
             ingredients: {
@@ -167,6 +175,7 @@ export const data = [
         name: "Panquesitos MG",
         username: "panquesitosMG",
         email: "Panquesitos@april.biz",
+        img: "https://cakesbymk.com/wp-content/uploads/2023/06/Template-Size-for-Blog-Photos-32.jpg",
         description: {
             name: "Marbled cake",
             ingredients: {
