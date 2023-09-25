@@ -1,11 +1,25 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
 img {
     border-radius: 50%;
     height: 100px;
 }
 
-p {
+div {
     font-family: 'Open Sans', sans-serif;
+   border-radius: 2%;
+   width: 200px;
 }
+
+.divSecond {
+    background-color: peachpuff;
+    
+}
+
 
 
 
