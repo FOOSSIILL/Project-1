@@ -43,13 +43,27 @@ class AppContainer extends HTMLElement {
             <img src="https://tienda.pasteleriamilhojaldres.com.co/317-large_default/brownie-con-helado.jpg">
             <img src="https://cdn-icons-png.flaticon.com/512/45/45093.png">
             </section>
+            
+
             `;
+
+
+
 
             this.profiles.forEach((profile) => {
                 this.shadowRoot?.appendChild(profile);
             })
         }
-    }
+
+        const divElement = this.ownerDocument.createElement('div'); 
+            divElement.classList.add('divElement') 
+            this.shadowRoot?.appendChild(divElement)
+            this.profiles.forEach(profiles => {
+                divElement.appendChild(profiles)
+            })
+        
+
+    }        
 }
 
 customElements.define("app-container",AppContainer);

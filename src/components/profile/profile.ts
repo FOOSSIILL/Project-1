@@ -80,8 +80,8 @@ class Profile extends HTMLElement{
             <link rel="stylesheet" href="style.css">
         <section>
             <div class="divMother>
-            <h1>${this.name}</h1>
             <div class="divSecond">
+            <h1>${this.name}</h1>
             <img src="${this.img}"></img>
             <p>Receta número: ${this.uid}</p>
             <p>Receta hecha por: ${this.username}</p>
