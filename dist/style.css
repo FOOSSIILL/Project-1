@@ -19,6 +19,10 @@ div {
     background-color: peachpuff;
     
 }
+.divMother {
+    display: flex;
+    
+}
 
 
 

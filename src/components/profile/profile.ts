@@ -79,17 +79,15 @@ class Profile extends HTMLElement{
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="style.css">
         <section>
+            <div class="divMother>
             <h1>${this.name}</h1>
-            <div>
-          
-            </div> 
-       
             <div class="divSecond">
             <img src="${this.img}"></img>
             <p>Receta número: ${this.uid}</p>
             <p>Receta hecha por: ${this.username}</p>
             <p>Contacto del autor/a: ${this.email}</p>
             </div>
+            </div>     
         </section>`
 
         }
