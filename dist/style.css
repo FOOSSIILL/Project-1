@@ -1,6 +1,5 @@
 h1 {
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 
@@ -12,13 +11,17 @@ img {
 div {
     font-family: 'Open Sans', sans-serif;
    border-radius: 2%;
-   width: 200px;
+   width: 600px;
    background-color: peachpuff;
+   height: 100px;
+   
 }
 
 .divSecond {
     display: flex;
 }
+
+
 
 
 
