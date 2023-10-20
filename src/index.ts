@@ -38,6 +38,9 @@ class AppContainer extends HTMLElement {
             <img src="https://caracol.com.co/resizer/XbOvV_a8hkaF2dGbV5R85bF9bJ4=/800x800/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/EPNLO5RVFRIPBEK5ETQAVS7QLM.jpg">
             <img src="https://www.paramarte.co/cdn/shop/products/pie-de-manzana-03_1000x1000.jpg?v=1590787424">
             <img src="https://content-cocina.lecturas.com/medio/2018/07/19/galletas-red-velvet_a9c4cac6_800x800.jpg">
+            <img src="https://tienda.pasteleriamilhojaldres.com.co/317-large_default/brownie-con-helado.jpg">
+            <img src="https://eatsymarket.com/cdn/shop/products/Heladoartesanal_conos_2a428d96-4f0e-445d-98af-416263afb12f.jpg?v=1665521139">
+            <img src="https://content-cocina.lecturas.com/medio/2018/07/19/tiramisu-del-veneto_f49fa0ca_800x800.jpg">
             <img src="https://cdn-icons-png.flaticon.com/512/45/45093.png">
             </section>
             
