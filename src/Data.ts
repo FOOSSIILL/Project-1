@@ -3,7 +3,7 @@ export const data = [
         id: 1,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://yanubapasteleria.com/wp-content/uploads/2020/05/Torta-De-Chocolate.jpg", 
         description: {
             name: "Chocolate cake",
@@ -27,7 +27,7 @@ export const data = [
         id: 2,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://i.pinimg.com/1200x/c2/03/5f/c2035f79f7a27df3af9f2841bf4285a1.jpg",
         description: {
             name: "Vainilla cake",
@@ -47,7 +47,7 @@ export const data = [
         id: 3,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://static.wixstatic.com/media/de1ac3_1deee754808b416db47629e483506a00~mv2.jpg/v1/fill/w_800,h_800,al_c,q_85,enc_auto/de1ac3_1deee754808b416db47629e483506a00~mv2.jpg",
         description: {
             name: "Cheesecake of strawbery",
@@ -72,7 +72,7 @@ export const data = [
         id: 4,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/coffee-cake-4d37cac.jpg?resize=768,574",
         description: {
             name: "Coffe cake",
@@ -93,7 +93,7 @@ export const data = [
         id: 5,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://emilyfabulous.com/wp-content/uploads/2020/09/slice-of-banana-cream-cake-on-a-plate-800x800.jpg",
         description: {
             name: "Banana cake",
@@ -115,7 +115,7 @@ export const data = [
         id: 6,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://sudamerglobal.com/wp-content/uploads/2021/06/Mr-Quick-Pandebonos-2.jpg",
         description: {
             name: "pandebonos",
@@ -135,7 +135,7 @@ export const data = [
         id: 7,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://beyondfrosting.com/wp-content/uploads/2022/03/Lemon-Ice-Cream-Cake_FI.jpg",
         description: {
             name: "Lemon and apple ice cream cake",
@@ -155,7 +155,7 @@ export const data = [
         id: 8,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://www.jerrys.gr/wp-content/uploads/2021/07/image4-800x800.jpeg",
         description: {
             name: "Sweet cake",
@@ -174,7 +174,7 @@ export const data = [
         id: 9,
         name: "Panquesitos MG",
         username: "panquesitosMG",
-        email: "Panquesitos@april.biz",
+        email: "Panquesitos@april",
         img: "https://bobthebakerboy.com/img/cakes/869_20230705104456-4367_20210911113343-IMG_0086.webp",
         description: {
             name: "Marbled cake",
@@ -196,4 +196,24 @@ export const data = [
         },
  
     },
+    {
+        id: 10,
+        name: "Panquesitos MG",
+        username: "panquesitosMG",
+        email: "Panquesitos@april",
+        img: "https://content-cocina.lecturas.com/medio/2020/05/13/brownie_de_chocolate_con_leche_con_nueces_y_cerezas_a6f5f4fe_800x800.jpg",
+        description: {
+            name: "Brownies",
+            ingredients: {
+                step1: "200g of butter",
+                step2: "225g of white sugar or powdered sugar",
+                step3: "180g of chocolate with minimum 70% cocoa content",
+                step4: "2 large eggs",
+                step5: "120g of wheat flour",
+                step6: "30g cocoa powder",
+                step7: "1/2 tablespoon vanilla essence",
+                step8: "A handful of walnuts (optional)",
+            },
+        },
+    }
 ]

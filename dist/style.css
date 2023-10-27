@@ -11,8 +11,8 @@ img {
 div {
     font-family: 'Open Sans', sans-serif;
    border-radius: 2%;
-   width: 600px;
-   background-color: peachpuff;
+   width: 40%;
+   
    height: 100px;
    
 }
@@ -21,7 +21,17 @@ div {
     display: flex;
 }
 
+.divElement {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+}
 
+.profile {
+    width: 100%;
+   padding: 10%;
+}
 
 
 

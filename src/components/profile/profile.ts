@@ -78,16 +78,13 @@ class Profile extends HTMLElement{
         if(this.shadowRoot){
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="style.css">
-        <section>
-            <div class="divMother">
-            <div class="divSecond">
+             <section class="profile">
             <h1>${this.name}</h1>
             <img src="${this.img}"></img>
             <p>Receta número: ${this.uid}</p>
             <p>Receta hecha por: ${this.username}</p>
             <p>Contacto del autor/a: ${this.email}</p>
-            </div>
-            </div>     
+                
         </section>`
 
         }

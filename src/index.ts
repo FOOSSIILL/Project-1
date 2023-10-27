@@ -47,9 +47,6 @@ class AppContainer extends HTMLElement {
 
             `;
 
-
-
-
             this.profiles.forEach((profile) => {
                 this.shadowRoot?.appendChild(profile);
             })
