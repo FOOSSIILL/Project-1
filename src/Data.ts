@@ -143,9 +143,9 @@ export const data = [
                 step1: "6 Hony Bran cookies",
                 step2: "4 cups plain yogurt",
                 step3: "1 Envelope of Clight lemon juice",
-                step4: "  2 Envelopes of ROYAL unflavored gelatin",
+                step4: "2 Envelopes of ROYAL unflavored gelatin",
                 step5: "1/2 cup of cold water",
-                step6: "1 green apple cut in slices ",
+                step6: "1 green apple cut in slices",
                 step7: "Maple syrup",
             },
         },
@@ -223,7 +223,7 @@ export const data = [
         email: "Panquesitos@april",
         img: "https://content-cocina.lecturas.com/medio/2018/07/19/bizcocho-de-platano-y-caramelo_64cd374b_800x800.jpg",
         description: {
-            name: "BBanana cake",
+            name: "Banana cake",
             ingredients: {
                 step1: "22 sticks of butter",
                 step2: "2 cups Sugar (400 grams)",
