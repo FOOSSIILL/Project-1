@@ -84,7 +84,9 @@ class AppContainer extends HTMLElement {
             <form>
               <label for="keep your personal data private. Any user who can view your profile can see the information you add here.">Keep your personal data private. Any user who can view your profile can see the information you add here.</label>
               <h4>Photos</h4>
+              <section>
               <img src="https://previews.123rf.com/images/barbyturas/barbyturas1701/barbyturas170100023/69802986-ilustraci%C3%B3n-de-vector-dibujado-a-mano-cupcakes-dulces-d%C3%ADa-de-san-valent%C3%ADn.jpg">
+              </section>
               <button type="submit">Modify</button> 
               <label for="name">Name</label> 
               <input type="text" id="name" name="name" required>
