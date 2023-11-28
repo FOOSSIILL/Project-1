@@ -84,7 +84,6 @@ class Profile extends HTMLElement{
             <p>Receta número: ${this.uid}</p>
             <p>Receta hecha por: ${this.username}</p>
             <p>Contacto del autor/a: ${this.email}</p>
-                
         </section>`
 
         }
