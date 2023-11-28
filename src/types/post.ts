@@ -3,5 +3,7 @@ export interface Post {
     email: string;
     password: string;
     name: string;
-    age: number
+    description: string;
+    ingredients: string;
+    username: string;
 }

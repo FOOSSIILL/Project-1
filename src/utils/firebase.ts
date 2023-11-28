@@ -22,7 +22,7 @@ export const auth = getAuth(app);
 
 const addPosts = async (post: Omit<Post,"id">) => {
   try {
-    const where = collection(db, "posts");
+    const where = collection(db, "Recipes");
     await addDoc(where,post);
     console.log("Se añadió")
   } catch (error) {
@@ -34,7 +34,7 @@ const getPosts = async () => {
   const querySnapshot = await getDocs(collection(db,"posts"));
   const transformed: Array<Post> = [];
 
-  querySnapshot.forEach((doc)=>{
+  querySnapshot.forEach((doc:any)=>{
     const data: Omit<Post,"id"> = doc.data() as any;
     transformed.push({
       id: doc.id, 
@@ -44,20 +44,20 @@ const getPosts = async () => {
 
   return transformed;
 }
-
-
 //Authentication
 
-const createUser = async (email: string,password: string, name: string, age: number) => {
+const createUser = async (email: string, name: string, username: string, uid: number) => {
   //Primer paso: Crear usuario con auth
   try {
-    const userCredential = await createUserWithEmailAndPassword(auth,email,password);
+    const userCredential = await createUserWithEmailAndPassword(auth,email,name);
     console.log(userCredential.user);
     //Segundo paso: Agregar la info restante a la db con el id del usuario
     const where = doc(db, "users", userCredential.user.uid);
     const data = {
       name: name,
-      age: age
+      username: username,
+      email: email,
+      uid: uid
     }
     await setDoc(where, data);
     //Tercer paso: Retornar true para dejarlo pasar de pantalla
@@ -74,7 +74,7 @@ const createUser = async (email: string,password: string, name: string, age: num
 const logIn = async (email: string, password: string) => {
   setPersistence(auth,browserLocalPersistence).then(() =>{
     return signInWithEmailAndPassword(auth,email,password);
-  }).catch((error)=> {
+  }).catch((error:any)=> {
     const errorCode = error.code;
     const errorMessage = error.message;
     console.error(errorCode,errorMessage);
