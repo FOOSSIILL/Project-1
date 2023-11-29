@@ -57,8 +57,8 @@ class AppContainer extends HTMLElement {
               <label for="it must have a minimum of 6 to 12 characters with the first letter capitalized">It must have a minimum of 6 to 12 characters with the first letter capitalized</label> <br>
               <label for="username">Username</label> 
               <input type="text" id="username" name="username" required>
-              <label for="digit">Digit</label>
-              <input type="text" id="digit" name="digit" required> <br> 
+              <label for="digit number">Digit number</label>
+              <input type="text" id="digit number" name="digitnumber" required> <br> 
               <button type="submit">Safe</button>
             </form>
           </div>
@@ -71,10 +71,24 @@ class AppContainer extends HTMLElement {
               <label for="panquesitosMG">PanquesitosMG</label>
               <h4>@PanquesitosMG</h4>
               <label for="plus.google.com/109937510618111444294">plus.google.com/109937510618111444294</label> <br>
-              <label for="10 followers">10 Followers</label>
-              <label for="50 following">50 Following</label>
+              <label for="10 followers o 50 Following">10 Followers o 50 Following </label>
               <button type="submit">share</button>
               <button type="submit">Edit profile</button>
+              <section>
+              <img src="https://sweettale.co/wp-content/uploads/2022/07/Copy-of-Copy-of-DSC_0073.jpg">
+              <img src="https://content-cocina.lecturas.com/medio/2018/07/19/galletas-red-velvet_a9c4cac6_800x800.jpg">
+              <img src="https://i.pinimg.com/736x/46/b4/cd/46b4cd63fb8f054b65fc242d01875923.jpg">
+              </section>
+              <section>
+              <img src="https://i.pinimg.com/originals/79/cb/91/79cb9142ceb6a2645a0e55856384f9f0.jpg">
+              <img src="https://mercadosilvestre.cl/cdn/shop/articles/IMG_9729_800x.jpg?v=1621262722">
+              <img src="https://thebigmansworld.com/wp-content/uploads/2020/11/almond-flour-waffles4.jpg">
+              </section>
+              <section>
+              <img src="https://gatodumas.com.co/bogota/wp-content/uploads/sites/15/2020/10/Galletas-Humedas-de-chocolate.jpg">
+              <img src="https://yanubapasteleria.com/wp-content/uploads/2020/11/Pan-Huevo.jpg">
+              <img src="https://jumbocolombiaio.vtexassets.com/arquivos/ids/222815-800-800?v=637816529533530000&width=800&height=800&aspect=true">
+              </section>
             </form>
           </div>
             </section>
