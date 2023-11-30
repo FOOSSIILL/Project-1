@@ -29,15 +29,24 @@ class AppContainer extends HTMLElement {
         if(this.shadowRoot){
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="style.css">
-            <section>
-            <div class="login-container">
-            <h1>Login</h1>
-            <form>
+                <section>
+                <div class="login-container">
+                <h1>Login</h1>
+                <form>
+
+                <div class="container9">
                 <label for="username and email">Username and email</label>
                 <input type="text" id="username and email" name="username and email" required>
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
+                </div>
+              
                 <button type="submit">Login</button>
+                <section>
+                <label for="forgot the password">Forgot the password</label> <br>
+                <label for="you don't have an account, create one">You don't have an account, create one</label>
+                </section>
+                
             </form>
         </div>
             </section>
@@ -45,20 +54,40 @@ class AppContainer extends HTMLElement {
             <div class="Register-container">
             <h1>Register</h1>
             <form>
-              <label for="fill in the required fields">Fill in the required fields</label> <br>
-              <label for="first name">First name</label>
-              <input type="text" id="first name" name="first name" required>
+            <div class="container0">
+            <label for="fill in the required fields">Fill in the required fields</label> <br>
+            </div>
+
+             <div class="container5">
+             <label for="first name">First name</label>
+             <input type="text" id="first name" name="first name" required>
+             </div>
+
+              <div class="container4">
               <label for="last name">Last name</label>
               <input type="text" id="last name" name="last name" required> <br>
+              </div>
+
+
+              <div class="container3">
               <label for="place an email">Place an email</label> <br>
+              </div>
+              
+              <div class="container2">
               <label for="email">Email</label> <br>
               <input type="text" id="email" name="email" required> <br>
+              </div>
+              <div class="container6">
               <label for="create a username">Create a username</label> <br>
-              <label for="it must have a minimum of 6 to 12 characters with the first letter capitalized">It must have a minimum of 6 to 12 characters with the first letter capitalized</label> <br>
+              <label for="it must have a minimum of 6 to 12 characters">It must have a minimum of 6 to 12 characters</label> <br>
+              </div>
+
+              <div class="container7">
               <label for="username">Username</label> 
               <input type="text" id="username" name="username" required>
               <label for="digit number">Digit number</label>
               <input type="text" id="digit number" name="digitnumber" required> <br> 
+              </div>
               <button type="submit">Safe</button>
             </form>
           </div>
@@ -68,10 +97,12 @@ class AppContainer extends HTMLElement {
             <h1>Perfil</h1>
             <img src="https://previews.123rf.com/images/barbyturas/barbyturas1701/barbyturas170100023/69802986-ilustraci%C3%B3n-de-vector-dibujado-a-mano-cupcakes-dulces-d%C3%ADa-de-san-valent%C3%ADn.jpg">
             <form>
-              <label for="panquesitosMG">PanquesitosMG</label>
-              <h4>@PanquesitosMG</h4>
-              <label for="plus.google.com/109937510618111444294">plus.google.com/109937510618111444294</label> <br>
-              <label for="10 followers o 50 Following">10 Followers o 50 Following </label>
+            
+            <label for="panquesitosMG">PanquesitosMG</label>
+            <h4>@PanquesitosMG</h4>
+            <label for="plus.google.com/109937510618111444294">plus.google.com/109937510618111444294</label> <br>
+            <label for="10 followers o 50 Following">10 Followers o 50 Following </label>
+
               <button type="submit">share</button>
               <button type="submit">Edit profile</button>
               <section>
@@ -96,25 +127,36 @@ class AppContainer extends HTMLElement {
             <div class="Edit-profile-container">
             <h1>Edit profile</h1>
             <form>
-              <label for="keep your personal data private. Any user who can view your profile can see the information you add here.">Keep your personal data private. Any user who can view your profile can see the information you add here.</label>
-              <h4>Photos</h4>
-              <section>
-              <img src="https://previews.123rf.com/images/barbyturas/barbyturas1701/barbyturas170100023/69802986-ilustraci%C3%B3n-de-vector-dibujado-a-mano-cupcakes-dulces-d%C3%ADa-de-san-valent%C3%ADn.jpg">
-              </section>
+            <label for="keep your personal data private. Any user who can view your profile can see the information you add here.">Keep your personal data private. Any user who can view your profile can see the information you add here.</label>
+            <h4>Photos</h4>
+            <section>
+            <img src="https://mr-cupcake.com/wp-content/uploads/2021/04/0000_MRCUPCAKE-ENE2021-27.jpg">
+            </section>
+            
+             
               <button type="submit">Modify</button> 
+              <div class="container11">
               <label for="name">Name</label> 
               <input type="text" id="name" name="name" required>
+              </div>
+              <div class="container12">
               <label for="last name">Last name</label> 
-              <input type="text" id="name" name="name" required> <br>
+              <input type="text" id="last name" name="last name" required> <br>
+              </div>
+              <div class="container">
               <label for="info">Info</label> <br>
               <input type="text" id="info" name="info"> <br>
               <label for="website">Website</label> <br>
               <input type="text" name="website" id="website" required> <br>
               <label for="username">Username</label> <br>
               <input type="text" name="username" id="username" required>
+              </div>
             </form>
+           
+          
           </div>
             </section>
+          
             <section>
             <img src="https://previews.123rf.com/images/barbyturas/barbyturas1701/barbyturas170100023/69802986-ilustraci%C3%B3n-de-vector-dibujado-a-mano-cupcakes-dulces-d%C3%ADa-de-san-valent%C3%ADn.jpg">
             <img src="https://i.pinimg.com/736x/46/b4/cd/46b4cd63fb8f054b65fc242d01875923.jpg">

@@ -6,6 +6,8 @@ h1 {
 img {
     border-radius: 50%;
     height: 100px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 div {
@@ -13,6 +15,7 @@ div {
    border-radius: 2%;
    width: 40%;
    height: 100px;
+
    
 }
 
@@ -31,6 +34,8 @@ div {
 .profile {
     width: 100%;
    padding: 10%;
+   background-color: #f0f0f0;
+   box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
    
 }
 
@@ -48,9 +53,11 @@ body {
 .login-container {
     background-color: #fff;
     text-align: center;
-    height: 100%;
-    width: 30%;
+    height: 99%;
+    width: 40%;
     margin: auto;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 form {
@@ -59,9 +66,7 @@ form {
     gap: 10px;
 }
 
-label {
-    font-weight: bold;
-}
+
 
 input {
     padding: 10px;
@@ -80,27 +85,127 @@ button {
 
 /*-----------------------------------Register----------------------------------------------*/
 .Register-container{
-    height: 100%;
-    width: 30%;
+    height: 99%;
+    width: 40%;
     margin: auto;
     text-align: center;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.container{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+
+.container2{
+    
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+
+.container3{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+
+.container4{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+
+.container5{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+.container0{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+
+.container7{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+
+.container6{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+.container9{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;
+}
+
+.container10{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;   
+}
+
+.container11{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;   
+}
+
+.container12{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;   
+}
 /*-----------------------------------Perfil-container--------------------------------------*/
 .perfil-container{
-    height: 100%;
-    width: 30%;
+    height: 99%;
+    width: 40%;
     margin: auto;
     text-align: center;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   }
 
  /*-----------------------------------Edit-profile-container--------------------------------------*/  
 .Edit-profile-container{
-    height: 100%;
-    width: 30%;
+    height: 99%;
+    width: 40%;
     margin: auto;
     text-align: center;
-    gap: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    gap: 16px;
    
 }
 
