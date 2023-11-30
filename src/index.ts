@@ -128,11 +128,10 @@ class AppContainer extends HTMLElement {
             <div class="Edit-profile-container">
             <h1>Edit profile</h1>
             <form>
-            <section>
+
+            </section>
             <label for="keep your personal data private. Any user who can view your profile can see the information you add here.">Keep your personal data private. Any user who can view your profile can see the information you add here.</label>
             <h4>Photos</h4>
-            </section>
-            </section>
             <img src="https://mr-cupcake.com/wp-content/uploads/2021/04/0000_MRCUPCAKE-ENE2021-27.jpg">
             <button type="submit">Modify</button> 
               <div class="container11">
