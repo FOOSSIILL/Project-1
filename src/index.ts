@@ -95,7 +95,7 @@ class AppContainer extends HTMLElement {
             <section>
             <div class="perfil-container">
             <h1>Perfil</h1>
-            <img src="https://previews.123rf.com/images/barbyturas/barbyturas1701/barbyturas170100023/69802986-ilustraci%C3%B3n-de-vector-dibujado-a-mano-cupcakes-dulces-d%C3%ADa-de-san-valent%C3%ADn.jpg">
+             <img src="https://previews.123rf.com/images/barbyturas/barbyturas1701/barbyturas170100023/69802986-ilustraci%C3%B3n-de-vector-dibujado-a-mano-cupcakes-dulces-d%C3%ADa-de-san-valent%C3%ADn.jpg">
             <form>
             
             <label for="panquesitosMG">PanquesitosMG</label>
@@ -123,18 +123,18 @@ class AppContainer extends HTMLElement {
             </form>
           </div>
             </section>
+
             <section>
             <div class="Edit-profile-container">
             <h1>Edit profile</h1>
             <form>
+            <section>
             <label for="keep your personal data private. Any user who can view your profile can see the information you add here.">Keep your personal data private. Any user who can view your profile can see the information you add here.</label>
             <h4>Photos</h4>
-            <section>
-            <img src="https://mr-cupcake.com/wp-content/uploads/2021/04/0000_MRCUPCAKE-ENE2021-27.jpg">
             </section>
-            
-             
-              <button type="submit">Modify</button> 
+            </section>
+            <img src="https://mr-cupcake.com/wp-content/uploads/2021/04/0000_MRCUPCAKE-ENE2021-27.jpg">
+            <button type="submit">Modify</button> 
               <div class="container11">
               <label for="name">Name</label> 
               <input type="text" id="name" name="name" required>
@@ -153,7 +153,6 @@ class AppContainer extends HTMLElement {
               </div>
             </form>
            
-          
           </div>
             </section>
           

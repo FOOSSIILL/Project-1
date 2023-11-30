@@ -91,6 +91,7 @@ button {
     text-align: center;
     background-color: #f0f0f0;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+   
 }
 
 .container{
@@ -185,7 +186,8 @@ button {
     margin-bottom: 10px;
     margin: auto;
     height: 99%;
-    width: 40%;   
+    width: 40%; 
+    
 }
 /*-----------------------------------Perfil-container--------------------------------------*/
 .perfil-container{
@@ -195,6 +197,7 @@ button {
     text-align: center;
     background-color: #f0f0f0;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
   }
 
  /*-----------------------------------Edit-profile-container--------------------------------------*/  
@@ -206,8 +209,8 @@ button {
     background-color: #f0f0f0;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     gap: 16px;
-   
 }
+
 
 
 
