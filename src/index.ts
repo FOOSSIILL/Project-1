@@ -128,32 +128,36 @@ class AppContainer extends HTMLElement {
             <div class="Edit-profile-container">
             <h1>Edit profile</h1>
             <form>
-
-            </section>
+            <section>
             <label for="keep your personal data private. Any user who can view your profile can see the information you add here.">Keep your personal data private. Any user who can view your profile can see the information you add here.</label>
             <h4>Photos</h4>
             <img src="https://mr-cupcake.com/wp-content/uploads/2021/04/0000_MRCUPCAKE-ENE2021-27.jpg">
-            <button type="submit">Modify</button> 
-              <div class="container11">
-              <label for="name">Name</label> 
-              <input type="text" id="name" name="name" required>
-              </div>
-              <div class="container12">
-              <label for="last name">Last name</label> 
-              <input type="text" id="last name" name="last name" required> <br>
-              </div>
-              <div class="container">
-              <label for="info">Info</label> <br>
-              <input type="text" id="info" name="info"> <br>
-              <label for="website">Website</label> <br>
-              <input type="text" name="website" id="website" required> <br>
-              <label for="username">Username</label> <br>
-              <input type="text" name="username" id="username" required>
-              </div>
-            </form>
-           
+            <div class="Buttom">
+            <button type="submit">Modify</button>
+            </div>
+            <div class="section-buttom">
+            <label for="name">Name</label> 
+            <input type="text" id="name" name="name" required> 
+            </div>  
+            <div class="section-buttom2">
+            <label for="last name">Last name</label> 
+            <input type="text" id="last name" name="last name" required>
+            </div>
+            <div class="section-buttom3">
+            <label for="info">Info</label> 
+            <input type="text" id="info" name="info"> 
+            </div>
+            <div class="section-buttom4">
+            <label for="website">Website</label> 
+            <input type="text" name="website" id="website" required> 
+            </div>
+            <div class="section-buttom5">
+            <label for="username">Username</label> 
+            <input type="text" name="username" id="username" required>
+            </div>
+            </form>         
           </div>
-            </section>
+        </section>
           
             <section>
             <img src="https://previews.123rf.com/images/barbyturas/barbyturas1701/barbyturas170100023/69802986-ilustraci%C3%B3n-de-vector-dibujado-a-mano-cupcakes-dulces-d%C3%ADa-de-san-valent%C3%ADn.jpg">

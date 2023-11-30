@@ -208,10 +208,53 @@ button {
     text-align: center;
     background-color: #f0f0f0;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    gap: 16px;
 }
 
+.Buttom{
+ 
+    margin: auto;
+    height: 99%;
+    width: 40%;
+    
+}
 
+.section-buttom{
+    
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%; 
+}
 
+.section-buttom2 {
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%; 
+}
 
+.section-buttom3{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;  
+}
 
+.section-buttom4{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;  
+}
+
+.section-buttom5{
+    gap: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 99%;
+    width: 40%;  
+}
